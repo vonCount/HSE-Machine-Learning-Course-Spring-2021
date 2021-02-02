@@ -1,1 +1,1 @@
-# HSE-Machine-Learning-Course-Spring-2021
+# HSE Machine Learning Course Spring 2021
