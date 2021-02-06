@@ -222,8 +222,8 @@ round-trip min/avg/max/stddev = 50.348/51.949/53.765/1.171 ms
 ### Answer:
 
 
-If I want to minimise transmission time and cellular bandwidth and WiFi bandwidth are equal, I should choose a 50%/50% ratio.  
-If I want to minimise cellular bandwidth use, I should send the whole file by WiFi.
+If I want to minimize transmission time and cellular bandwidth and WiFi bandwidth are equal, I should choose a 50%/50% ratio.  
+If I want to minimize cellular bandwidth use, I should send the whole file by WiFi.
 
 ### Exercise 21: UDP is popular for streaming media; explain why.
 ### Answer:
