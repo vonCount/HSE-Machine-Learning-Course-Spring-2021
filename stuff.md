@@ -3,54 +3,54 @@
 ### Exercise 1: Compute the truth table for NOT:
 ### Answer:
 
-X | NOT X
-:--:|:-------:
-0 |   1
-1 |   0
+ X | NOT(X)
+:-:|:-----:
+0  |1
+1  |0
 
 ### Exercise 2: Compute the truth table table for AND.
 ### Answer:
 
-X | Y | X AND Y
-:--:|:---:|:--------:
-0 | 0 |   0
-1 | 0 |   0
-0 | 1 |   0
-1 | 1 |   1
+X   | Y | AND(X,Y)
+:--:|:-:|:-------:
+0   |0  |0
+1   |0  |0
+0   |1  |0
+1   |1  |1
 
 ### Exercise 3: Compute the truth table for exclusive-or, defined by the formula:
 
 XOR(X, Y) = (X OR Y) AND NOT (X AND Y)
 ### Answer:
 
-X | Y | XOR(X, Y)
-:--:|:---:|:--------:
-0 | 0 |   0
-1 | 0 |   1
-0 | 1 |   1
-1 | 1 |   0
+|X   |Y    |XOR(X, Y)|
+|:--:|:---:|:-------:|
+| 0  |0    |0  
+| 1  |0    |1 
+| 0  |1    |1 
+| 1  |1    |0 
 
 ### Exercise 4: Prove De Morgan's theorem, NOT(X OR Y) = NOT(X) AND NOT(Y),
 by completing the table and checking the last two columns are the same.
 ### Answer:
 
-X | Y | NOT(X OR Y) | NOT(X) AND NOT(Y)
-:--:|---:|:-------------:|:-------------------:
-0 | 0 |      1      |        1
-1 | 0 |      0      |        0
-0 | 1 |      0      |        0
-1 | 1 |      0      |        0
+| X | Y | NOT(X OR Y) | NOT(X) AND NOT(Y)|
+|:-:|:-:|:-----------:|:----------------:|
+| 0 | 0 | 1           | 1                |
+| 1 | 0 | 0           | 0                |
+| 0 | 1 | 0           | 0                |
+| 1 | 1 | 0           | 0                |
 
 
 ### Exercise 5: using truth tables, check these three equations
 ### Answer:
 
-X | Y |NOT(X)|NAND(1,X)|AND(X,Y)|NOT(NAND(X,Y))|OR(X,Y)|NAND(NOT(X),NOT(Y)))|
-:--:|:---:|:------:|:---------:|:--------:|:--------------:|:-------:|:--------------------:|
-0 | 0 |   1  |     1   |    0   |       0      |    0  |        0           |
-1 | 0 |   0  |     0   |    0   |       0      |    1  |        1           |
-0 | 1 |   1  |     1   |    0   |       0      |    1  |        1           |
-1 | 1 |   0  |     0   |    1   |       1      |    1  |        1           |
+|X   | Y   |NOT(X)|NAND(1,X)|AND(X,Y)|NOT(NAND(X,Y))|OR(X,Y)|NAND(NOT(X),NOT(Y)))|
+|:--:|:---:|:----:|:-------:|:------:|:------------:|:-----:|:------------------:|
+|0   |0    |1     |1        |0       |0             |0      |0                   |
+|1   |0    |0     |0        |0       |0             |1      |1                   |
+|0   |1    |1     |1        |0       |0             |1      |1                   |
+|1   |1    |0     |0        |1       |1             |1      |1                   |
 
 ### Exercise 6: write similar formulas expressing NOT, AND, and OR in terms of NOR
 ### Answer:
