@@ -198,20 +198,20 @@ There 4294967296 addresses in IPv4 (it equals to 2^32). The shortage of IPv4 add
 ### Answer:
 
 
-(base) MacBook-Air-Ila:~ datanikitin$ ping -c 10 vk.com  
-PING vk.com (93.186.225.208): 56 data bytes  
-64 bytes from 93.186.225.208: icmp_seq=0 ttl=55 time=53.735 ms  
-64 bytes from 93.186.225.208: icmp_seq=1 ttl=55 time=51.208 ms  
-64 bytes from 93.186.225.208: icmp_seq=2 ttl=55 time=50.768 ms  
-64 bytes from 93.186.225.208: icmp_seq=3 ttl=55 time=50.760 ms  
-64 bytes from 93.186.225.208: icmp_seq=4 ttl=55 time=52.984 ms  
-64 bytes from 93.186.225.208: icmp_seq=5 ttl=55 time=50.348 ms  
-64 bytes from 93.186.225.208: icmp_seq=6 ttl=55 time=53.765 ms  
-64 bytes from 93.186.225.208: icmp_seq=7 ttl=55 time=51.594 ms  
-64 bytes from 93.186.225.208: icmp_seq=8 ttl=55 time=52.239 ms  
-64 bytes from 93.186.225.208: icmp_seq=9 ttl=55 time=52.091 ms  
+(base) MacBook-Air-Ila:~ datanikitin$ ping -c 10 vk. com  
+PING vk. com (93. 186. 225. 208): 56 data bytes  
+64 bytes from 93. 186. 225. 208: icmp_seq=0 ttl=55 time=53.735 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=1 ttl=55 time=51.208 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=2 ttl=55 time=50.768 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=3 ttl=55 time=50.760 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=4 ttl=55 time=52.984 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=5 ttl=55 time=50.348 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=6 ttl=55 time=53.765 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=7 ttl=55 time=51.594 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=8 ttl=55 time=52.239 ms  
+64 bytes from 93. 186. 225. 208: icmp_seq=9 ttl=55 time=52.091 ms  
   
---- vk.com ping statistics ---  
+--- vk. com ping statistics ---  
 10 packets transmitted, 10 packets received, 0.0% packet loss  
 round-trip min/avg/max/stddev = 50.348/51.949/53.765/1.171 ms  
 
