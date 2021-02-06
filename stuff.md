@@ -85,38 +85,37 @@ There are 2^8 (256) different possible values for 8 bits. When interpreted as an
 ### Answer:
 
 
-  1 * 2^2 + 1 * 2^1 + 0 * 2^0
-= 1 * 4   + 1 * 2   + 0 * 1
-=   4     +   2     +   0
+  1 * 2^2 + 1 * 2^1 + 0 * 2^0  
+= 1 * 4   + 1 * 2   + 0 * 1  
+=   4     +   2     +   0  
 = 6
 
 ### Exercise 10: Convert 11 to binary.
 ### Answer:
 
-2^0 = 1 <= 11
-2^1 = 2 <= 11
-2^2 = 4 <= 11
-2^3 = 8 <= 11
-2^4 = 16 > 11 => high bit is 3
-
-Thus X = X3 X2 X1 X0, and X3 = 1. That’s how we get a binary 1000.
-
-11 - 8 = 3, so now we find the highest bit of 3:
-
-2^0 = 1 <= 3
-2^1 = 2 <= 3
-2^2 = 4 > 3 => high bit is 1
-
-That’s how we get a binary 10.
-
-3 - 2 = 1, so now we find the highest bit of 1:
-
-2^0 = 1 => high bit is 0
-
-That’s how we get a binary 1.
-
-(in binary) 1000 + 10 + 1 = 1011.
-
+2^0 = 1 <= 11  
+2^1 = 2 <= 11  
+2^2 = 4 <= 11  
+2^3 = 8 <= 11  
+2^4 = 16 > 11 => high bit is 3  
+  
+Thus X = X3 X2 X1 X0, and X3 = 1. That’s how we get a binary 1000.  
+  
+11 - 8 = 3, so now we find the highest bit of 3:  
+  
+2^0 = 1 <= 3  
+2^1 = 2 <= 3  
+2^2 = 4 > 3 => high bit is 1  
+  
+That’s how we get a binary 10.  
+  
+3 - 2 = 1, so now we find the highest bit of 1:  
+  
+2^0 = 1 => high bit is 0  
+  
+That’s how we get a binary 1.  
+  
+(in binary) 1000 + 10 + 1 = 1011.  
 
 ### Exercise 11: Convert these powers of 2 into binary: 2, 4, 8, 16, 32. What do you notice?
 ### Answer:
@@ -163,8 +162,8 @@ That’s how we get a binary 1.
 |1  |0  |0  |
 |0  |1  |0  |
 |1  |1  |1  |
-
-The logical operation which matches the output Z0 is AND.
+  
+The logical operation which matches the output Z0 is AND.  
 
 ## Digital Logic
 
@@ -199,22 +198,22 @@ There 4294967296 addresses in IPv4 (it equals to 2^32). The shortage of IPv4 add
 ### Answer:
 
 
-(base) MacBook-Air-Ila:~ datanikitin$ ping -c 10 vk.com
-PING vk.com (93.186.225.208): 56 data bytes
-64 bytes from 93.186.225.208: icmp_seq=0 ttl=55 time=53.735 ms
-64 bytes from 93.186.225.208: icmp_seq=1 ttl=55 time=51.208 ms
-64 bytes from 93.186.225.208: icmp_seq=2 ttl=55 time=50.768 ms
-64 bytes from 93.186.225.208: icmp_seq=3 ttl=55 time=50.760 ms
-64 bytes from 93.186.225.208: icmp_seq=4 ttl=55 time=52.984 ms
-64 bytes from 93.186.225.208: icmp_seq=5 ttl=55 time=50.348 ms
-64 bytes from 93.186.225.208: icmp_seq=6 ttl=55 time=53.765 ms
-64 bytes from 93.186.225.208: icmp_seq=7 ttl=55 time=51.594 ms
-64 bytes from 93.186.225.208: icmp_seq=8 ttl=55 time=52.239 ms
-64 bytes from 93.186.225.208: icmp_seq=9 ttl=55 time=52.091 ms
-
---- vk.com ping statistics ---
-10 packets transmitted, 10 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 50.348/51.949/53.765/1.171 ms 
+(base) MacBook-Air-Ila:~ datanikitin$ ping -c 10 vk.com  
+PING vk.com (93.186.225.208): 56 data bytes  
+64 bytes from 93.186.225.208: icmp_seq=0 ttl=55 time=53.735 ms  
+64 bytes from 93.186.225.208: icmp_seq=1 ttl=55 time=51.208 ms  
+64 bytes from 93.186.225.208: icmp_seq=2 ttl=55 time=50.768 ms  
+64 bytes from 93.186.225.208: icmp_seq=3 ttl=55 time=50.760 ms  
+64 bytes from 93.186.225.208: icmp_seq=4 ttl=55 time=52.984 ms  
+64 bytes from 93.186.225.208: icmp_seq=5 ttl=55 time=50.348 ms  
+64 bytes from 93.186.225.208: icmp_seq=6 ttl=55 time=53.765 ms  
+64 bytes from 93.186.225.208: icmp_seq=7 ttl=55 time=51.594 ms  
+64 bytes from 93.186.225.208: icmp_seq=8 ttl=55 time=52.239 ms  
+64 bytes from 93.186.225.208: icmp_seq=9 ttl=55 time=52.091 ms  
+  
+--- vk.com ping statistics ---  
+10 packets transmitted, 10 packets received, 0.0% packet loss  
+round-trip min/avg/max/stddev = 50.348/51.949/53.765/1.171 ms  
 
 
 ## Bandwidth, latency, reliability
@@ -223,7 +222,7 @@ round-trip min/avg/max/stddev = 50.348/51.949/53.765/1.171 ms
 ### Answer:
 
 
-If I want to minimise transmission time and cellular bandwidth and WiFi bandwidth are equal, I should choose a 50%/50% ratio.
+If I want to minimise transmission time and cellular bandwidth and WiFi bandwidth are equal, I should choose a 50%/50% ratio.  
 If I want to minimise cellular bandwidth use, I should send the whole file by WiFi.
 
 ### Exercise 21: UDP is popular for streaming media; explain why.
