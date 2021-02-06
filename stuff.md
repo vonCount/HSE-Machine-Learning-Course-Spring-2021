@@ -59,12 +59,12 @@ by completing the table and checking the last two columns are the same.
 * AND(X,Y) = NOR(NOT(X),NOT(Y)))
 * OR(X,Y) = NOT(NOR(X,Y))
 
-|X | Y |NOT(X)  | NOR(0,X) | AND(X,Y) | NOR(NOT(X),NOT(Y))) | OR(X,Y) | NOT(NOR(X,Y)) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|0   |0  |1  |1  |0  |0  |0  |0  |
-|0   |1  |1  |1  |0  |0  |1  |1  |
-|1   |0  |0  |0  |0  |0  |1  |1  |
-|1   |1  |0  |0  |1  |1  |1  |1  |
+|X  |Y  |NOT(X)|NOR(0,X)|AND(X,Y)|NOR(NOT(X),NOT(Y)))|OR(X,Y)|NOT(NOR(X,Y))|
+|:-:|:-:|:----:|:------:|:------:|:-----------------:|:-----:|:-----------:|
+|0  |0  |1     |1       |0       |0                  |0      |0            |
+|0  |1  |1     |1       |0       |0                  |1      |1            |
+|1  |0  |0     |0       |0       |0                  |1      |1            |
+|1  |1  |0     |0       |1       |1                  |1      |1            |
 
 ### Exercise 7: why NOT and OR can't be expressed in terms of AND? Explain
 ### Answer:
