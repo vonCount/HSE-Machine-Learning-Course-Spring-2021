@@ -3,7 +3,7 @@
 ### Exercise 1: Compute the truth table for NOT:
 ### Answer:
 
-| X | NOT(X)|
+|X  |NOT(X) |
 |:-:|:-----:|
 |0  |1      |
 |1  |0      |
@@ -11,7 +11,7 @@
 ### Exercise 2: Compute the truth table table for AND.
 ### Answer:
 
-|X   | Y | AND(X,Y)|
+|X   |Y  |AND(X,Y) |
 |:--:|:-:|:-------:|
 |0   |0  |0        |
 |1   |0  |0        |
@@ -34,7 +34,7 @@ XOR(X, Y) = (X OR Y) AND NOT (X AND Y)
 by completing the table and checking the last two columns are the same.
 ### Answer:
 
-| X | Y | NOT(X OR Y) | NOT(X) AND NOT(Y)|
+|X  |Y  |NOT(X OR Y)  |NOT(X) AND NOT(Y) |
 |:-:|:-:|:-----------:|:----------------:|
 | 0 | 0 | 1           | 1                |
 | 1 | 0 | 0           | 0                |
@@ -59,7 +59,7 @@ by completing the table and checking the last two columns are the same.
 * AND(X,Y) = NOR(NOT(X),NOT(Y)))
 * OR(X,Y) = NOT(NOR(X,Y))
 
-|X | Y | NOT(X) | NOR(0,X) | AND(X,Y) | NOR(NOT(X),NOT(Y))) | OR(X,Y) | NOT(NOR(X,Y)) |
+|X | Y |NOT(X)  | NOR(0,X) | AND(X,Y) | NOR(NOT(X),NOT(Y))) | OR(X,Y) | NOT(NOR(X,Y)) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |0   |0  |1  |1  |0  |0  |0  |0  |
 |0   |1  |1  |1  |0  |0  |1  |1  |
