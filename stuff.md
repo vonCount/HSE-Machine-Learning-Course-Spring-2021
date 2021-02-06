@@ -24,7 +24,7 @@ XOR(X, Y) = (X OR Y) AND NOT (X AND Y)
 ### Answer:
 
 X | Y | XOR(X, Y)
---|---|--------
+:--:|:---:|:--------:
 0 | 0 |   0
 1 | 0 |   1
 0 | 1 |   1
@@ -35,7 +35,7 @@ by completing the table and checking the last two columns are the same.
 ### Answer:
 
 X | Y | NOT(X OR Y) | NOT(X) AND NOT(Y)
---|---|-------------|-------------------
+:--:|---:|:-------------:|:-------------------:
 0 | 0 |      1      |        1
 1 | 0 |      0      |        0
 0 | 1 |      0      |        0
