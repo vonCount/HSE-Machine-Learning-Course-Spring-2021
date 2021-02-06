@@ -25,10 +25,10 @@ XOR(X, Y) = (X OR Y) AND NOT (X AND Y)
 
 |X  |Y  |XOR(X, Y)|
 |:-:|:-:|:-------:|
-|0  |0  |0  
-|1  |0  |1 
-|0  |1  |1 
-|1  |1  |0 
+|0  |0  |0        |
+|1  |0  |1        |
+|0  |1  |1        |
+|1  |1  |0        |
 
 ### Exercise 4: Prove De Morgan's theorem, NOT(X OR Y) = NOT(X) AND NOT(Y),
 by completing the table and checking the last two columns are the same.
@@ -61,10 +61,10 @@ by completing the table and checking the last two columns are the same.
 
 |X | Y | NOT(X) | NOR(0,X) | AND(X,Y) | NOR(NOT(X),NOT(Y))) | OR(X,Y) | NOT(NOR(X,Y)) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|0   | 0  | 1  | 1  | 0  | 0  | 0  | 0  |
-|0   | 1  | 1  | 1  | 0  | 0  | 1  | 1  |
-|1   | 0  | 0  | 0  | 0  | 0  | 1  | 1  |
-|1   | 1  | 0  | 0  | 1  | 1  | 1  | 1  |
+|0   |0  |1  |1  |0  |0  |0  |0  |
+|0   |1  |1  |1  |0  |0  |1  |1  |
+|1   |0  |0  |0  |0  |0  |1  |1  |
+|1   |1  |0  |0  |1  |1  |1  |1  |
 
 ### Exercise 7: why NOT and OR can't be expressed in terms of AND? Explain
 ### Answer:
@@ -145,24 +145,24 @@ That’s how we get a binary 1.
 ### Exercise 14: complete the table by converting 2 into single-bit binary:
 ### Answer:
 
-|X0 | Y0 | Z0
-|---|----|----
-|0  | 0  | 0
-|1  | 0  | 1
-|0  | 1  | 1
-|1  | 1  | 0
+|X0 |Y0 |Z0 |
+|:-:|:-:|:-:|
+|0  |0  |0  |
+|1  |0  |1  |
+|0  |1  |1  |
+|1  |1  |0  |
 
 
 ### Exercise 15: do the same for single-bit multiplication: write down the table of binary numbers for X0, Y0, and the binary representation of their product Z0, and find the logical operation which matches.
 
 ### Answer:
 
-X0 | Y0 | Z0
-|:---:|:----:|:----:
-|0  | 0  | 0
-|1  | 0  | 0
-|0  | 1  | 0
-|1  | 1  | 1
+|X0 |Y0 |Z0 |
+|:-:|:-:|:-:|
+|0  |0  |0  |
+|1  |0  |0  |
+|0  |1  |0  |
+|1  |1  |1  |
 
 The logical operation which matches the output Z0 is AND.
 
@@ -172,12 +172,12 @@ The logical operation which matches the output Z0 is AND.
 ### Answer:
 
 
-| A |  B | NAND(A,B) |
-|:---:|:----:|:-----------:|
-|0  | 0  | 1         |
-|1  | 0  | 1         |
-|0  | 1  | 1         |
-|1  | 1  | 0         |
+|A  |B  |NAND(A,B)|
+|:-:|:-:|:-------:|
+|0  |0  | 1       |
+|1  |0  | 1       |
+|0  |1  | 1       |
+|1  |1  | 0       |
 
 The output of the NAND Gate is LOW if and only if both of its inputs are HIGH otherwise its output is HIGH, note that the output of the NAND Gate is exact complement of the AND Gate in which output will be HIGH if only if inputs are HIGH otherwise the output is LOW for all other combinations of the input variables.
 
