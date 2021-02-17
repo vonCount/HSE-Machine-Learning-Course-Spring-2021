@@ -129,7 +129,7 @@ def DecisionTreeTrain(data, goal, features):
         right = DecisionTreeTrain(data = yes, goal = goal, features = features)   
         return Tree(data = f, left=left, right=right)
 
-def DecisionTreeTest(tree):
+def DecisionTreeTest(tree, test_point):
     if tree.is_leaf():
         return tree.data
     else: 
