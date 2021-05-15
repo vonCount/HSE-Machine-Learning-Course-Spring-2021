@@ -270,3 +270,5 @@ def AveragedPerceptronTrain(D, Maxiter = 100):
           beta += y * c
         c += Scalar(1)
     return w - (Scalar(1)/c) * u, b - beta * (Scalar(1)/c)
+  
+  """The averaged one works better"""
