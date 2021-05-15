@@ -2,3 +2,4 @@
 
 * HW 1. Decision Trees
 * HW 2. K-means Clustering
+* HW 3. Perceptron
