@@ -129,8 +129,8 @@ xs = [Vector(randint(-100, 100), randint(-100, 100)) for i in range(500)]
 ys = [v * x * Scalar(randint(-1, 9)) for x in xs]
 
 def merge(l1, l2):       
-    merged_list = [(l1[i], l2[i]) for i in range(0, len(l1))] 
-    return merged_list      
+    merged = [l1[i], l2[i] for i in range(0, len(l1))] 
+    return merged      
     
 def train_test_split(data, split, shuf = True):
   if shuf = True:
